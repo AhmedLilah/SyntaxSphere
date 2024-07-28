@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+        <head>
+
+        </head>
+        <body>
+                <input type="email" id="email" name="input"/>
+                <br>
+                <input type="password" id="password" name="input"/>
+                <br>
+                <button type="button" id="input" name="input" onchange onpropertychange onkeyup onpaste oninput onclick="handelButtonPress()"> Submit </button>
+                <br>
+                <input type="text" id="result"/>
+                <style>
+                        @import url("https://fonts.googleapis.com/css?family=Borel");
+                        * {
+                                font-family: "Borel", "FiraCode Nerd Font Mono";
+                                font-size: 16pt;
+                                border: transparent;
+                                border-radius: 5px;
+                                background-color: #262626;
+                                padding: 5px;
+                                margin: 5px;
+                                justify-content: center;
+                        }
+                        
+                        p {
+                                color: #059862;
+                                margin: 0px;
+                        }
+
+                        div {
+                                padding: 5px;
+                                margin: 0px;
+                        }
+
+                        input {
+                                background-color: #059862;
+                                box-shadow: 0px 5px 6px 2px rgba(0, 0, 0, 0.5);
+                                border-radius: 5px;
+                                outline: none;
+                                width: 25%;
+                                height: 25%;
+                        }
+
+                        #id {
+                        }
+
+                        input:focus {
+                                border: transparent;
+                                outline: none;
+                        }
+
+                        button {
+                                color: darkbrown;
+                                background-color: #059862;
+                                border-radius: 5px;
+                                box-shadow: 0px 5px 6px 2px rgba(0, 0, 0, 0.5);
+                        }
+
+                        button:active {
+                                box-shadow: 0px 3px 4px 1px rgba(0, 0, 0, 0.5);
+                        }
+
+                        textarea {
+                                color: darkbrown;
+                                background-color: #059862;
+                                border-radius: 5px;
+                                box-shadow: 0px 5px 6px 2px rgba(0, 0, 0, 0.5);
+                        }
+                </style>
+                <br>
+                <script>
+                        function handelButtonPress() {
+                                console.log("###### User Data ######");
+                                let email = document.getElementById("email");
+                                let password = document.getElementById("password");
+                                console.log("Email: " + email.value);
+                                console.log("Password: " + password.value);
+                                if (email.value.localeCompare("Ahmed S. Lilah") === 0 && password.value.localeCompare("Sherlockholmes21") === 0) {
+                                        let res = document.getElementById("result");
+                                        res.value = "Succeded";
+                                        res.style.color = "darkbrown";
+                                        res.style.backgroundColor = "#059862";
+                                } else {
+                                        let res = document.getElementById("result");
+                                        res.value = "Failed";
+                                        res.style.backgroundColor = "#ff9999";
+                                }
+                        }
+                </script>
+        </body>
+</html>

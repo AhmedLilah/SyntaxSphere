@@ -1,0 +1,12 @@
+// unary logical operators
+not
+
+// binary logical operators
+and or xor
+
+// ternary operators
+?:
+
+
+
+

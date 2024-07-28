@@ -1,0 +1,38 @@
+# variable types
+  signed integers : i8, i16, i32, i64, (the max size is limited by the hardware platform)
+  unsigned integers : u8, u16, u32, u64, (the max size is limited by the hardware platform)
+  floating point : f32, f64, f82 (the max size is limited by the hardware platform)
+  boolian : bool (usually an 8-bit as it's the lowes machines can go but should be flexable debending on the hardware platform)
+  character : char (8-bit ascii enclosed by single quotes '')
+  character sequence : str (char arry that is null terminated enclosed by single quotes '')
+  String : string (UTF-8 String representation):
+  
+# variables declaration 
+  let <variableName> [: <variableType> (required if the type couldn't be deducable from the value or the use cases in the code)] [= <value>];
+  const <variableName> [\<<templateParameter>\>] [: <variableType> (if not deducable from the value)] = <value>;
+  var [mut (indecates that the variable can be changed in const function)] <variableName> [\<<templateParameter>\>] [: <variableType> (if not dedcucable from the value or the is not initialized)] [= <value>];
+
+# function declaration/implementation
+  fn [[decl/impl] (for splitting declaration from implement)] <functionName> [\<<templateParameter>, \>] (<parameterName> [: <parameterType>], ) [<functionModifiers] [-> returnType] [{<functionImplementation>} (requred if not splitting)]
+
+# struct declaration : structs always use static disbatch
+  struct <StructName> [[conc/:] <StructName>, (for concatinating structs)] {
+  [public:/protected:/private:] (one is required to set the visiablity of the fields)
+    <structFields> (same variable declaration convention);
+  }
+
+# struct implementation
+  impl [[<TraitName>/<StructName>, for] <StructName> {
+    <structLogicImplementation> (same as functions implementation)
+  }
+
+# class declaration : calsses use virtual tables or dynamic disbatch
+  class <ClassName> [[inh/:] <ClassName>, (for inheriting classes)] {
+  [public:/protected:/private:] (one is required to set the visiablity of the fields)
+    <classFields> (same variable declaration convention);
+  }
+
+# class implementation : calsses use virtual tables or dynamic disbatch
+  impl [<InterfaceName>/<ClassName>, for] <ClassName> {
+    <ClassLogicImplementation> (same as functions implementation)
+  }

@@ -1,0 +1,167 @@
+* {
+        overflow-x: hidden;        
+        overflow-y: visible;
+}
+
+body {
+        color: #e9ecef;
+        border: none;
+        background-color: #e9ecef;
+        font-family: "FiraCode Nerd Font Mono";
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        overflow: auto;
+}
+
+.TopBar {
+        border-radius: 0px;
+}
+
+.GlobalFrame {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        overflow: auto;
+}
+
+button {
+        color: #353535;
+        background-color: #e9ecef;
+        font-size: 16pt;
+}
+
+.hidden {
+        transform: translate(400%);
+        transition-delay: all 1s;
+}
+
+.show {
+        transform: translate(0%);
+        transition-delay: all 1s;
+}
+
+.CardsHolderLight {
+        display: inline-flex;
+        background-color: #f0efeb;
+        border-radius: 0px;
+        margin: 0px;
+        padding: 25px;
+        width: 100%;
+        overflow: auto;
+}
+
+.CardsHolderDark {
+        display: inline-flex;
+        background-color: #f0efeb;
+        border-radius: 0px;
+        margin: 0px;
+        padding: 25px;
+        width: 100%;
+        overflow: auto;
+}
+
+.CardLight {
+        color: #353535;
+        background-color: #ffffff;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0px 0px 9px 2px rgba(25, 25, 25, 0.5);
+        width: 260px;
+        min-width: 260px;
+        margin: 25px;
+        overflow: auto;
+}
+
+.CardLight:hover {
+        box-shadow: 0px 0px 6px 1px rgba(25, 25, 25, 0.4);
+}
+
+.CardDark {
+        color: #ffffff;
+        background-color: #353535;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0px 0px 9px 2px rgba(25, 25, 25, 0.5);
+        width: 260px;
+        min-width: 260px;
+        margin: 25px;
+        overflow: auto;
+}
+
+.CardDark:hover {
+        box-shadow: 0px 0px 6px 1px rgba(25, 25, 25, 0.4);
+}
+
+.TextContainerLight {
+        text-align: center;
+        font-size: 12pt;
+        padding: 0px 15px 15px 15px;
+
+}
+
+.TextContainerDark {
+        text-align: center;
+        font-size: 12pt;
+        padding: 0px 15px 15px 15px;
+
+}
+
+img {
+        width: 100%;
+        border-radius: 15px 15px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.icon-bar {
+        width: 100%; /* Full-width */
+        background-color: #555; /* Dark-grey background */
+        overflow: auto; /* Overflow due to float */ 
+}
+
+.icon-bar a {
+        float: left; /* Float links side by side */
+        text-align: center; /* Center-align text */
+        width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+        padding: 12px 0; /* Some top and bottom padding */
+        transition: all 0.3s ease; /* Add transition for hover effects */
+        color: white; /* White text color */
+        font-size: 36px; /* Increased font size */
+}
+
+.icon-left-bar {
+        width: 90px; /* Set a specific width */
+        background-color: #555; /* Dark-grey background */
+}
+
+.icon-left-bar a {
+        display: block; /* Make the links appear below each other instead of side-by-side */
+        text-align: center; /* Center-align text */
+        padding: 16px; /* Add some padding */
+        transition: all 0.3s ease; /* Add transition for hover effects */
+        color: white; /* White text color */
+        font-size: 36px; /* Increased font-size */
+}
+
+.icon-bar a:hover {
+        background-color: #000; /* Add a hover color */
+}
+
+.icon-left-bar a:hover {
+        background-color: #000; /* Add a hover color */
+}
+
+.active {
+        background-color: #04AA6D; /* Add an active/current color */
+}
