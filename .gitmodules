@@ -85,3 +85,12 @@
 [submodule "Zig"]
 	path = Zig
 	url = https://github.com/AhmedLilah/Zig.git
+[submodule "A"]
+	path = A
+	url = https://github.com/AhmedLilah/A.git
+[submodule "CSharp"]
+	path = CSharp
+	url = https://github.com/AhmedLilah/CSharp.git
+[submodule "CPP"]
+	path = CPP
+	url = https://github.com/AhmedLilah/CPP.git
