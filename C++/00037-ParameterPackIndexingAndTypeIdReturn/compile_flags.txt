@@ -1,4 +1,0 @@
--std=c++2c
--O3
--Weverthing
--g

@@ -1,0 +1,87 @@
+[submodule "A++"]
+	path = A++
+	url = https://github.com/AhmedLilah/A.git
+[submodule "Assembly"]
+	path = Assembly
+	url = https://github.com/AhmedLilah/Assembly.git
+[submodule "Bash"]
+	path = Bash
+	url = https://github.com/AhmedLilah/Bash.git
+[submodule "C"]
+	path = C
+	url = https://github.com/AhmedLilah/C.git
+[submodule "C#"]
+	path = "C#"
+	url = https://github.com/AhmedLilah/CSharp.git
+[submodule "C++"]
+	path = C++
+	url = https://github.com/AhmedLilah/CPP.git
+[submodule "Circle"]
+	path = Circle
+	url = https://github.com/AhmedLilah/Circle.git
+[submodule "Coq"]
+	path = Coq
+	url = https://github.com/AhmedLilah/Coq.git
+[submodule "CSS"]
+	path = CSS
+	url = https://github.com/AhmedLilah/CSS.git
+[submodule "D"]
+	path = D
+	url = https://github.com/AhmedLilah/D.git
+[submodule "Go"]
+	path = Go
+	url = https://github.com/AhmedLilah/Go.git
+[submodule "Haskell"]
+	path = Haskell
+	url = https://github.com/AhmedLilah/Haskell.git
+[submodule "HTML"]
+	path = HTML
+	url = https://github.com/AhmedLilah/HTML.git
+[submodule "Jai"]
+	path = Jai
+	url = https://github.com/AhmedLilah/Jai.git
+[submodule "Java"]
+	path = Java
+	url = https://github.com/AhmedLilah/Java.git
+[submodule "JavaScript"]
+	path = JavaScript
+	url = https://github.com/AhmedLilah/JavaScript.git
+[submodule "LATEX"]
+	path = LATEX
+	url = https://github.com/AhmedLilah/LATEX.git
+[submodule "Markdown"]
+	path = Markdown
+	url = https://github.com/AhmedLilah/Markdown.git
+[submodule "MATLAB"]
+	path = MATLAB
+	url = https://github.com/AhmedLilah/MATLAB.git
+[submodule "Nim"]
+	path = Nim
+	url = https://github.com/AhmedLilah/Nim.git
+[submodule "Ocaml"]
+	path = Ocaml
+	url = https://github.com/AhmedLilah/Ocaml.git
+[submodule "Odin"]
+	path = Odin
+	url = https://github.com/AhmedLilah/Odin.git
+[submodule "PowerShell"]
+	path = PowerShell
+	url = https://github.com/AhmedLilah/PowerShell.git
+[submodule "Python"]
+	path = Python
+	url = https://github.com/AhmedLilah/Python.git
+[submodule "Rust"]
+	path = Rust
+	url = https://github.com/AhmedLilah/Rust.git
+[submodule "TCL"]
+	path = TCL
+	url = https://github.com/AhmedLilah/TCL.git
+[submodule "TypeScript"]
+	path = TypeScript
+	url = https://github.com/AhmedLilah/TypeScript.git
+[submodule "V"]
+	path = V
+	url = https://github.com/AhmedLilah/V.git
+[submodule "Zig"]
+	path = Zig
+	url = https://github.com/AhmedLilah/Zig.git
