@@ -94,3 +94,6 @@
 [submodule "CPP"]
 	path = CPP
 	url = https://github.com/AhmedLilah/CPP.git
+[submodule "Abstract"]
+	path = Abstract
+	url = https://github.com/AhmedLilah/Abstract.git
