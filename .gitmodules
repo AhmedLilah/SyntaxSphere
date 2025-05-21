@@ -97,3 +97,6 @@
 [submodule "Abstract"]
 	path = Abstract
 	url = https://github.com/AhmedLilah/Abstract.git
+[submodule "Bend"]
+	path = Bend
+	url = https://github.com/AhmedLilah/Bend
