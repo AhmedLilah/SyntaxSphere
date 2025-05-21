@@ -100,3 +100,6 @@
 [submodule "Bend"]
 	path = Bend
 	url = https://github.com/AhmedLilah/Bend
+[submodule "Lua"]
+	path = Lua
+	url = https://github.com/AhmedLilah/Lua
